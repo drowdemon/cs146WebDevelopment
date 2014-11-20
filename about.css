@@ -20,9 +20,13 @@ body {
 }
 .navbar > li {
   display: inline-block;
+  position: relative;
+  left: -17px;
 }
 .navbar > li + li {
   margin-left: 20px;
+  position: relative;
+  left: -17px;
 }
 .round-img {
   border-radius: 15px;
