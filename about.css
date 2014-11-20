@@ -1,0 +1,43 @@
+/*Global styling for links*/
+a, a:focus, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  background-color: #b30000;
+  font-family: sans-serif;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+/*Header styling*/
+.company-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar > li {
+  display: inline-block;
+}
+.navbar > li + li {
+  margin-left: 20px;
+}
+/*Styling for links in nav*/
+.navbar > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.navbar > li > a:hover, .navbar > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.navbar > .active > a, .navbar > .active > a:hover, .navbar > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}

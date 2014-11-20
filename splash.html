@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Splash Page</title>
+    <title>iDateU :: Home</title>
     <meta charset="utf-8">
     <meta name="description" content="Letting a person have a one-night dinner date with a celebrity!">
     <link type="text/css" rel="stylesheet" href="splash.css">
   </head>
   <body>
-    <header> <!-- Unified for whole website -->
-      <a href="./splash.html"><img src="logo.png" alt="logo" width="125" /></a>
-      <a href="./splash.html"><img src="headerImage.jpg" alt="header" width="125" /></a>
-      <nav>
-        <ul>
-          <li><a href="./splash.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-      
-    <section>
-      <h1>Ever wanted to date the undatable?</h1>
-      <article class="celebrity_pics">
-        <img src="emma.jpg" alt="Emma Watson" />
-        <img src="leonardo.jpg" alt="Leonardo Dicaprio" />
-        <img src="brad.jpg" alt="Brad Pitt" />
-        <img src="taylor.jpg" alt="Taylor Swift" />
-        
-        <p>We have celebrities from across the world available... for the right price!</p>
-      </article>
-      
-      
-    </section>
+    <div class="outer-wrapper">
+      <div class="inner-wrapper">
+        <div class="container">
+          <header class="site-header"> <!-- Unified for whole website -->
+            <div class="inner">
+              <a href="./splash.html"><img class="round-img" src="logo.png" alt="logo" width="125" /></a>
+              <h3 class="company-name">iDateU</h3>
+              <nav>
+                <ul class="navbar">
+                  <li class="active"><a href="./splash.html">Home</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./survey.html">Survey</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+            
+          <section>
+            <h1 class="main-heading">Ever wanted to date the undateable?</h1>
+            <article class="celebrity_pics">
+              <img class="round-img" src="emma.jpg" alt="Emma Watson" height="900" width="900" />
+              <img class="round-img" src="leonardo.jpg" height="900" width="900" alt="Leonardo Dicaprio" />              
+              <p class="lead">At iDateU, we have celebrities from across the world available... for the right price!</p>
+              <p class="lead">Our survey will pair you with the perfect celebrity for you.</p>
+              <p class="lead">Date the celebrity of your dreams while donating to charity!</p>
+              <form action="./survey.html">
+                <input type="submit" value="Take our survey now!">
+              </form>
+            </article>
+            
+          </section>
+        </div>
+      </div>  
+    </div>
   </body>
 </html>
 
