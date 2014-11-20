@@ -32,11 +32,14 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4);
 }
+header {
+  padding: 30px;
+}
 .round-img {
   border-radius: 15px;
 }
 /*Style for vertical/horizontal centering*/
-.outer-wrapper {
+.wrapper {
   display: table;
   width: 100%;
   height: 100%;
@@ -47,16 +50,9 @@ body {
   -o-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
   box-shadow: inset 0 0 100px rgba(0,0,0,.4);
 }
-.inner-wrapper {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
+.container {
   margin-right: auto;
   margin-left: auto;
-}
-.inner {
-  padding: 30px;
 }
 /*Header styling*/
 .company-name {
@@ -65,9 +61,13 @@ body {
 }
 .navbar > li {
   display: inline-block;
+  position: relative;
+  left: -17px;
 }
 .navbar > li + li {
   margin-left: 20px;
+  position: relative;
+  left: -17px;
 }
 /*Styling for links in nav*/
 .navbar > li > a {

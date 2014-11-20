@@ -24,6 +24,9 @@ body {
 .navbar > li + li {
   margin-left: 20px;
 }
+.round-img {
+  border-radius: 15px;
+}
 /*Styling for links in nav*/
 .navbar > li > a {
   padding-right: 0;
