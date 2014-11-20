@@ -38,6 +38,9 @@ header {
 .round-img {
   border-radius: 15px;
 }
+img {
+  margin: 0px 15px;
+}
 /*Style for vertical/horizontal centering*/
 .wrapper {
   display: table;
