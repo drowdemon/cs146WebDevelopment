@@ -1,39 +1,58 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <title>iDateU :: About Us</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Letting a person have a one-night dinner date with a celebrity!">
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body class="about-body">
-    <header class="site-header"> <!-- Unified for whole website -->
-      <a href="./splash.html"><img class="round-img" src="imgs/logo.png" alt="logo" width="125" /></a>
-      <h3 class="company-name">iDateU</h3>
-      <nav>
-        <ul class="navbar">
-          <li><a href="./splash.html">Home</a></li>
-          <li class="active"><a href="./about.html">About</a></li>
-          <li><a href="./survey.html">Survey</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <h1>About Us</h1>
-      <article>
-	<h2>Mission Statement</h2>
-	<p>To allow people to meet and date celebrities from around the world affordably, bringing joy to both, while simultaneously giving people and celebrities a great chance to donate to wonderful charities around the world.</p>
-      </article>
-      <article>
-	<h2>Terms of Service</h2>
-	<p>By reading this webpage, or any webpages associated with this website, the user agrees to give the makers of the webpage an 'A', or a 100% grade, whichever is applicable.</p>
-      </article>
-      <article>
-	<h2>Rules of engagement:</h2>
-	
-        <p>If you'd like to request an evening or weekend with one of our celebrities, simply browse our listings (not yet implemented) for bios on your favorites! Click on 'Register Person' and fill out a form (to be implemented) to get a chance to book a date with the person of your dreams. We only charge for a successful event, so feel free to sign up for whatever your heart desires. Prices will vary depending on celebrities. There is no guarantee that you will be able to sign up with any of our clients. Any liability to either you or the celebrity is not handled by our website. Some restrictions apply. Call us today!
-	</p>
-      </article>
-    </section>
-  </body>
-</html>
+/*Global styling for links*/
+a, a:focus, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  background-color: #66c3ff;
+  font-family: sans-serif;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -moz-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -ms-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -o-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+}
+
+/*Header styling*/
+.company-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar > li {
+  display: inline-block;
+  position: relative;
+  left: -17px;
+}
+.navbar > li + li {
+  margin-left: 20px;
+  position: relative;
+  left: -17px;
+}
+.round-img {
+  border-radius: 15px;
+}
+/*Styling for links in nav*/
+.navbar > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.navbar > li > a:hover, .navbar > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.navbar > .active > a, .navbar > .active > a:hover, .navbar > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
