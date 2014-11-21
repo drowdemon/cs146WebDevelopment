@@ -1,8 +1,7 @@
 /*Global styling for links*/
 a, a:focus, a:hover {
   color: #fff;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 /*Styling for button*/
 input {
@@ -54,7 +53,6 @@ article img {
   -ms-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
   -o-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
   box-shadow: inset 0 0 100px rgba(0,0,0,.4);
-  
 }
 /*Header styling*/
 .company-name {
