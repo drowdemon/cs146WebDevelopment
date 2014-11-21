@@ -9,7 +9,7 @@ input {
   cursor: pointer;
   padding: 5px 25px;
   background: #fff;
-  border: 1px solid #f00;
+  border: 1px solid #67f;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0,0,0,.75);
   color: #000;
@@ -22,7 +22,7 @@ input:hover, input:focus{
 }
 html, body {
   height: 100%;
-  background-color: #B2D1FF;
+  background-color: #66c3ff;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -39,11 +39,11 @@ header {
 .round-img {
   border-radius: 15px;
 }
-img {
+article img {
   float: right;
   width: 50%;
   height: 50%;
-  margin: 0px 15px;
+  margin: 10px 15px;
 }
 /*Style for vertical/horizontal centering*/
 .wrapper {
@@ -75,6 +75,11 @@ img {
   margin-left: 20px;
   position: relative;
   left: -17px;
+}
+#fixed-pos {
+  position: fixed;
+  margin: 0 15px;
+  width: 45%;
 }
 /*Styling for links in nav*/
 .navbar > li > a {
