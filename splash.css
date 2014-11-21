@@ -2,6 +2,7 @@
 a, a:focus, a:hover {
   color: #fff;
   text-decoration: none;
+  
 }
 /*Styling for button*/
 input {
@@ -39,6 +40,9 @@ header {
   border-radius: 15px;
 }
 img {
+  float: right;
+  width: 50%;
+  height: 50%;
   margin: 0px 15px;
 }
 /*Style for vertical/horizontal centering*/
