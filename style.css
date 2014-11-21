@@ -1,0 +1,155 @@
+/*Global styling for links*/
+a, a:focus, a:hover {
+  color: #fff;
+  text-decoration: none;
+  
+}
+/*Styling for button*/
+input {
+  cursor: pointer;
+  padding: 5px 25px;
+  background: #fff;
+  border: 1px solid #67f;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0,0,0,.75);
+  color: #000;
+  font-size: 1.1em;
+  font-family: sans-serif;
+}
+input:hover, input:focus{
+  background-color: #f7a; 
+  box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+html, body {
+  height: 100%;
+  background-color: #66c3ff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+article img {
+  float: right;
+  width: 50%;
+  height: 50%;
+  margin: 10px 15px;
+  border-radius: 15px;
+}
+/*Style for vertical/horizontal centering*/
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -moz-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -ms-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -o-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  
+}
+/*Header styling*/
+.company-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar > li {
+  display: inline-block;
+  position: relative;
+  left: -17px;
+}
+.navbar > li + li {
+  margin-left: 20px;
+  position: relative;
+  left: -17px;
+}
+#fixed-pos {
+  position: fixed;
+  margin: 0 15px;
+  width: 45%;
+}
+/*Styling for links in nav*/
+.navbar > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.navbar > li > a:hover, .navbar > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.navbar > .active > a, .navbar > .active > a:hover, .navbar > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*About page styles*/
+
+/*Global styling for links*/
+a, a:focus, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  background-color: #66c3ff;
+  font-family: sans-serif;
+}
+
+.about-body {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -moz-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -ms-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  -o-box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.4);
+}
+
+/*Header styling*/
+.company-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar > li {
+  display: inline-block;
+  position: relative;
+  left: -17px;
+}
+.navbar > li + li {
+  margin-left: 20px;
+  position: relative;
+  left: -17px;
+}
+.round-img {
+  border-radius: 15px;
+}
+/*Styling for links in nav*/
+.navbar > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.navbar > li > a:hover, .navbar > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.navbar > .active > a, .navbar > .active > a:hover, .navbar > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
