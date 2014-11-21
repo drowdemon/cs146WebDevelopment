@@ -1,0 +1,4 @@
+Marc Gotliboym -- About HTML
+James Murphy -- About CSS, various style tweaks/fixes
+Andrew Neurohr -- Splash CSS, navbar
+Mark Watson -- Splash HTML
