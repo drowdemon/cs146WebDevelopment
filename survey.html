@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Practice with Forms</title>
+    <title>Survey</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href = "style.css"/>
     <script src="survey.js"></script>
@@ -32,7 +32,7 @@
         </br>   
         
         <label for="State" class="labelitem">State:</label>
-        <input type="text" name="State" id="item6" size="24" maxlength="2" placeholder ="Enter state initials" required pattern="[a-zA-Z]+" title="State must be two characters from A-Z and cannot be blank."/><br/>
+        <input type="text" name="State" id="item6" size="24" maxlength="2" placeholder ="Enter state initials" required pattern="[A-Z][A-Z]" title="State must be two characters from A-Z and cannot be blank."/><br/>
         
         <label for="Zipcode" class="labelitem">Zipcode:</label>
         <input type="text" name="Zipcode" id="item7" size="24" maxlength="10" placeholder="Enter zip code." required pattern="\d{5}(\-\d{4})?" title="Enter 5 or 9 digit zip code"/><br/>
