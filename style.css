@@ -5,7 +5,7 @@ a, a:focus, a:hover {
   
 }
 /*Styling for button*/
-input {
+.button {
   cursor: pointer;
   padding: 5px 25px;
   background: #fff;
@@ -16,7 +16,7 @@ input {
   font-size: 1.1em;
   font-family: sans-serif;
 }
-input:hover, input:focus{
+.button:hover, .button:focus{
   background-color: #f7a; 
   box-shadow: 0 0 1px rgba(0,0,0, .75);
 }

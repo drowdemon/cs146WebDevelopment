@@ -7,7 +7,17 @@
     <script src="survey.js"></script>
   </head>
   <body>
-    <img src="imgs/logo.png"/>
+    <header class="site-header"> <!-- Unified for whole website -->
+      <a href="./splash.html"><img class="round-img" src="imgs/logo.png" alt="logo" width="125" /></a>
+      <h3 class="company-name">iDateU</h3>
+      <nav>
+        <ul class="navbar">
+          <li><a href="./splash.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li class="active"><a href="./survey.html">Survey</a></li>
+        </ul>
+      </nav>
+    </header>
     <form name="form1" id="form1" method="get" onsubmit="displayForm(); return false;">
       <fieldset>
         <legend>User Info</legend>
@@ -58,8 +68,8 @@
       
       </fieldset>
       <section id="reset_submit">
-        <input type="reset" value="Reset" onclick="resetForm()" />
-        <input type="submit" value="Submit" />
+        <input class="button" type="reset" value="Reset" onclick="resetForm()" />
+        <input class="button" type="submit" value="Submit" />
       </section>
     </form>
     <div id="summary_wrapper">
