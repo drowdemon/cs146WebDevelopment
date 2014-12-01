@@ -21,15 +21,15 @@
     <form name="form1" id="form1" method="get" onsubmit="displayForm(); return false;">
       <fieldset>
         <legend>User Info</legend>
-        <label for="First Name" class="labelitem">First Name:</label>
+        <label for="item1" class="labelitem">First Name:</label>
         <input type="text" name="First Name" id="item1" size="24" maxlength="32" placeholder="Enter first name" required pattern="[a-zA-Z\'\- ]+" title="First name must be characters from A-Z (case sensitive) and cannot be blank."/>
         <br/>
         
-        <label for="Last Name" class="labelitem">Last Name:</label>
+        <label for="item2" class="labelitem">Last Name:</label>
         <input type="text" name="Last Name" id="item2" size="24" maxlength="32" placeholder="Enter last name" required pattern="[a-zA-Z\'\- ]+" title="Last name must be characters from A-Z (case sensitive) and cannot be blank."/><br/>
         
         <span class="labelitem">
-          <label for="Address" class="address" >Address:</label>
+          <label for="item3" class="address" >Address:</label>
 	</span>
 
 	<span class="inputitem">  
@@ -37,34 +37,35 @@
         <input type="text" name="Address" id="item4" size="24" maxlength="32"/>
 	</span><br/>
         
-        <label for="City" class="labelitem">City:</label>
+        <label for="item5" class="labelitem">City:</label>
         <input type="text" name="City" id="item5" size="24" maxlength="32" required pattern="[a-zA-Z\'\- ]+" title="City must be characters from A-Z and cannot be blank." placeholder="Enter city"/>
-        </br>   
+        <br/>   
         
-        <label for="State" class="labelitem">State:</label>
+        <label for="item6" class="labelitem">State:</label>
         <input type="text" name="State" id="item6" size="24" maxlength="2" placeholder ="Enter state initials" required pattern="[A-Z][A-Z]" title="State must be two characters from A-Z and cannot be blank."/><br/>
         
-        <label for="Zipcode" class="labelitem">Zipcode:</label>
+        <label for="item7" class="labelitem">Zipcode:</label>
         <input type="text" name="Zipcode" id="item7" size="24" maxlength="10" placeholder="Enter zip code." required pattern="\d{5}(\-\d{4})?" title="Enter 5 or 9 digit zip code"/><br/>
 
-        <label for="Email" class="labelitem">Email Address:</label>
+        <label for="item8" class="labelitem">Email Address:</label>
         <input type="text" name="Email" id="item8" size="24" maxlength="32" placeholder="Enter email address." required title="Enter email address"/><br/>
                  
-        <label for="Celebrity" class="labelitem">Pick your match:</label>
+        <label for="item9" class="labelitem">Pick your match:</label>
         <select name="Celebrity" id="item9" required>
-          <option value= "undecided" selected>Select One</option>
+          <option value="">&nbsp;</option>
+          <option value="undecided" selected>Select your match</option>
           <optgroup label="Males">
             <option>Brad Pitt</option>
             <option>Leonardo Dicaprio</option>
           </optgroup>
-          <optgroup label= "Females">
+          <optgroup label="Females">
             <option>Taylor Swift</option>
             <option>Emma Watson</option>
           </optgroup>
         </select><br/>
         
-        <label for="Date" class="labelitem">Date for the Date!:</label>
-        <input type="date" name="Date" id="item10" required title="Enter the preferred date for your date"/></br>
+        <label for="item10" class="labelitem">Date for the Date!:</label>
+        <input type="date" name="Date" id="item10" required title="Enter the preferred date for your date"/><br/>
       
       </fieldset>
       <section id="reset_submit">
