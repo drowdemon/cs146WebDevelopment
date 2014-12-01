@@ -194,6 +194,7 @@ form, #summary_wrapper {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 15px;
+  border: solid 2px #000
 }
 fieldset {
   border: solid 1px #a1a1a1;
@@ -210,18 +211,7 @@ input, select, textarea {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type=text], input[type=password], select, textarea {
-  width: 200px;
-}
-input:required:invalid {
-  background: white right no-repeat url("invalid.png");
-}
-input:required:valid {
-  background: white right no-repeat url("valid.png");
-}
-input:required:valid ~ p.info {
-  visibility: hidden;
-}
+
 .inputitem {
   display: block;
   float: left;
@@ -231,17 +221,8 @@ input:required:valid ~ p.info {
   float: left;
   vertical-align: text-top;
   width: 120px;
-  margin: 2px;
 }
-br {
-  clear: left;
-}
-p.info {
-  font-size: 0.7em;
-  color: red;
-  display: block;
-  margin: 0 0 0 2px;
-}
+
 #reset_submit {
   float: right;
 }
